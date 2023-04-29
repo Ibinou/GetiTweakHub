@@ -29,3 +29,8 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
+
+.icon {
+  height: 100px;
+  width: 100px;
+}  
