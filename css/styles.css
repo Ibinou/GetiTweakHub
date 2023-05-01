@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  color: black;
+  font-familly: helvetica;
 } 
 ul {
   list-style-type: none;
