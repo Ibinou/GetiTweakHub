@@ -31,4 +31,8 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
-
+p {
+  font-familly: helvetica;
+  color: #4f4f4f;
+  font-size: 16px;
+}  
