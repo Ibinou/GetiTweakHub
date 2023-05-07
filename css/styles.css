@@ -4,35 +4,37 @@ body {
   color: black;
   font-familly: helvetica;
 } 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #04AA6D;
-}
 p {
   font-familly: helvetica;
   color: #4f4f4f;
   font-size: 16px;
 }  
+
+/*features list*/
+.feature-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.fa {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+
+
