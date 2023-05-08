@@ -112,6 +112,7 @@ p {
   margin: 0;
   padding: 10px 12px;
   text-align: center;
+  text-decoration: none;
 }
 
 .down {
@@ -128,6 +129,7 @@ p {
   margin: 0;
   padding: 10px 12px;
   text-align: center;
+  text-decoration: none;
 }
 /*faq*/
 .layout {
