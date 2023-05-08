@@ -11,35 +11,7 @@ p {
   font-size: 16px;
 }  
 
-/*features list*/
-.feature-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
-}
 
-.feature-list li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.icon {
-  margin-right: 10px;
-}
-
-.text {
-  font-weight: bold;
-}
-
-.fa {
-  font-family: 'Font Awesome 6 Free';
-  font-weight: 900;
-}
 
 
 
