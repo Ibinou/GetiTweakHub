@@ -35,6 +35,58 @@ p {
   font-size: 16px;
   color: #acacac;
 }  
-
+      .list {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      
+      .list-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 50%;
+        padding: 0 10px;
+      }
+      
+      .list-item img {
+        margin-right: 20px;
+        max-width: 60px;
+      }
+      
+      .list-item h2 {
+        font-size: 24px;
+        margin: 0;
+      }
+      
+      .list-item p {
+        font-size: 16px;
+        margin: 0;
+      }
+      
+      .left-column {
+        order: 1;
+      }
+      
+      .right-column {
+        order: 2;
+      }
+      
+      @media screen and (max-width: 767px) {
+        .list-item {
+          width: 100%;
+        }
+        
+        .left-column {
+          order: 2;
+        }
+        
+        .right-column {
+          order: 1;
+        }
+      }
 
 
