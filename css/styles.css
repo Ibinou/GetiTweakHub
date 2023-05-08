@@ -73,6 +73,7 @@ p {
       .list-item p {
         font-size: 16px;
         margin: 0;
+        line-height: 1.5;
       }
       
       .left-column {
