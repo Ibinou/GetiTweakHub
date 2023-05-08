@@ -9,6 +9,8 @@ p {
   font-familly: helvetica;
   color: #c9c9c9;
   font-size: 16px;
+  margin-top: -7px;
+  margin-bottom: 20px;
 }
 .tophero {
   background-color: #2a2a2a;
