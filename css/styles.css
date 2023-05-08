@@ -103,3 +103,19 @@ p {
   text-align: center;
 }
 
+.down {
+  background-color: #7163FF;
+  border-radius: 8px;
+  border-width: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+}
+
