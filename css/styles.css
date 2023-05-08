@@ -9,8 +9,13 @@ p {
   font-familly: helvetica;
   color: #4f4f4f;
   font-size: 16px;
-}  
-
+}
+.tophero {
+  background-color: #ffffc8;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
 
 
 
