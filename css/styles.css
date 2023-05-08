@@ -136,6 +136,7 @@ p {
   margin-bottom: 10px;
   background: #1c1c1c;
   border-radius: 10px;
+  width: 300px;
 }
 .accordion__question p {
   margin: 5px;
