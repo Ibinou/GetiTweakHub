@@ -21,6 +21,7 @@ p {
 .screenshot {
     width: auto;
     height: 280px;
+    margin-top: 20px;
 }
 .hero1 {
   background-color: #000;
