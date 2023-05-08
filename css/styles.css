@@ -20,6 +20,12 @@ p {
     width: auto;
     height: 280px;
 }
+.hero1 {
+  background-color: #000;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}  
 
 
 
