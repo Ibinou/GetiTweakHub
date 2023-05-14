@@ -117,7 +117,7 @@ p {
 
 .down {
   background-color: #7163FF;
-  border-radius: 8px;
+  border-radius: 14px;
   border-width: 0;
   color: #fff;
   cursor: pointer;
@@ -130,6 +130,9 @@ p {
   padding: 10px 12px;
   text-align: center;
   text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 40px;
 }
 /*faq*/
 .layout {
