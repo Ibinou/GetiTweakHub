@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  color: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
 } 
 
 p {
@@ -17,6 +18,8 @@ p {
   left: 0;
   right: 0;
   padding: 20px;
+  background-color: #CDC8FF;
+  height: 438px;
 }
 .screenshot {
     width: auto;
@@ -24,7 +27,7 @@ p {
     margin-top: 20px;
 }
 .hero1 {
-  background-color: #000;
+  background-color: #fff;
   left: 0;
   right: 0;
   padding: 20px;
