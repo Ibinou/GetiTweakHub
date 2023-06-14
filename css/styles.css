@@ -6,12 +6,25 @@ body {
   background-color: white;
 } 
 
-p {
+.title {
   font-familly: helvetica;
-  color: #c9c9c9;
-  font-size: 16px;
+  color: #000000;
+  font-size: 45px;
   margin-top: -7px;
   margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-familly: helvetica;
+  color: #555369;
+  font-size: 18px;
+  margin-top: -7px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  padding-left: 9%;
+  padding-right: 9%;
 }
 .tophero {
   background-color: #1c1c1c;
@@ -19,12 +32,12 @@ p {
   right: 0;
   padding: 20px;
   background-color: #CDC8FF;
-  height: 438px;
+  height: 435px;
 }
 .screenshot {
     width: auto;
     height: 423px;
-    margin-top: 20px;
+    margin-top: 14px;
 }
 .hero1 {
   background-color: #fff;
@@ -120,13 +133,13 @@ p {
 
 .down {
   background-color: #7163FF;
-  border-radius: 14px;
+  border-radius: 44px;
   border-width: 0;
   color: #fff;
   cursor: pointer;
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 500;
   list-style: none;
   margin: 0;
@@ -135,7 +148,8 @@ p {
   text-decoration: none;
   margin-right: 10px;
   margin-left: 10px;
-  height: 40px;
+  height: 43px;
+  width: 145px;
 }
 /*faq*/
 .layout {
