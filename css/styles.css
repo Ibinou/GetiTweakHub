@@ -58,6 +58,12 @@ p {
     height: 423px;
     z-index: -1;
 }
+.topiphonecontainer {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .hero1 {
   background-color: #fff;
   left: 0;
