@@ -16,7 +16,7 @@ body {
   font-weight: bold;
 }
 
-p {
+.paragraph {
   font-familly: helvetica;
   color: #555369;
   font-size: 18px;
@@ -25,6 +25,15 @@ p {
   line-height: 1.5;
   padding-left: 9%;
   padding-right: 9%;
+}
+p {
+  font-familly: helvetica;
+  color: #555369;
+  font-size: 18px;
+  margin-top: -7px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+
 }
 .tophero {
   background-color: #1c1c1c;
