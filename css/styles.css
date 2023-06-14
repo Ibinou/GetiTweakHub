@@ -214,3 +214,28 @@ p {
   display: block;
 }
 
+/* top nav bar*/
+header {
+  background-color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.icons {
+  font-size: 20px;
+}
+
+.icons i {
+  margin-left: 10px;
+}
+
