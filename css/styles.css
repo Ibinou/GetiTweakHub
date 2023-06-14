@@ -5,6 +5,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
 } 
+.topiphone {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.screenshot {
+    height: 423px;
+    margin-top: 0px;
+}
 
 .title {
   font-familly: helvetica;
@@ -41,19 +51,13 @@ p {
   right: 0;
   padding: 20px;
   background-color: #CDC8FF;
-  height: 636px;
+  height: 168px;
 }
-
-.topiphone {
-    display: flex;
-    justify-content: center;
-}
-
 .screenshot {
+    width: auto;
     height: 423px;
-    margin-top: 14px;
+    z-index: -1;
 }
-
 .hero1 {
   background-color: #fff;
   left: 0;
