@@ -43,11 +43,17 @@ p {
   background-color: #CDC8FF;
   height: 636px;
 }
+
+.topiphone {
+    display: flex;
+    justify-content: center;
+}
+
 .screenshot {
-    width: auto;
     height: 423px;
     margin-top: 14px;
 }
+
 .hero1 {
   background-color: #fff;
   left: 0;
