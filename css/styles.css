@@ -9,6 +9,8 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 0px;
+    transform: translateY(-2px);
+    z-index: -9999;
 }
 
 .screenshot {
@@ -56,7 +58,7 @@ p {
 .screenshot {
     width: auto;
     height: 423px;
-    z-index: -1;
+    z-index: -5;
 }
 .topiphonecontainer {
     display: flex;
