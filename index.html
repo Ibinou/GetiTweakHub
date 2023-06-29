@@ -22,13 +22,17 @@
     </div>
   </nav>
 </header>
-<div id="popup" style="display: none;">
-  <h1 style="text-align: center;">Download type</h1>
-  <div style="text-align: center;">
-    <button class="down">WebApp</button>
-    <button class="down">WebClip</button>
+    
+<div id="popup" class="popup-container">
+  <div class="popup-content">
+    <h1>Choose the download type</h1>
+    <div class="button-container">
+      <button class="down">WebClip</button>
+      <button class="down">WebApp</button>
+    </div>
   </div>
 </div>
+    
 <div class="tophero"> 
 <center>
     <h1 style="margin-top: 15px;" class="title">iTweakHub</h1>
@@ -139,8 +143,9 @@ answers.forEach((event) => {
 });
 //popup
 function showPopup() {
-  document.getElementById('popup').style.display = 'block';
+  document.getElementById('popup').classList.add('show');
 }
+
 
     </script>
 </div>    
