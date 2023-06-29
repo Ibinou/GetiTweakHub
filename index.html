@@ -22,13 +22,20 @@
     </div>
   </nav>
 </header>
+<div id="popup" style="display: none;">
+  <h1 style="text-align: center;">Download type</h1>
+  <div style="text-align: center;">
+    <button class="down">WebApp</button>
+    <button class="down">WebClip</button>
+  </div>
+</div>
 <div class="tophero"> 
 <center>
     <h1 style="margin-top: 15px;" class="title">iTweakHub</h1>
     <p class="paragraph">Introducing the best and innovative web-based 3rd party AppStore for iOS and iPadOS.</p>
 </center>
 <center>
-    <button class="down">Download</button>
+    <button class="down" onclick="showPopup()">Download</button>
 </center>     
 </div>
     
@@ -130,6 +137,11 @@ answers.forEach((event) => {
     }
   });
 });
+//popup
+function showPopup() {
+  document.getElementById('popup').style.display = 'block';
+}
+
     </script>
 </div>    
 </body>
