@@ -257,6 +257,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 98px;
 }
 
 .icon-container img {
