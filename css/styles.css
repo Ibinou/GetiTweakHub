@@ -269,7 +269,7 @@ nav {
 /* css by https://pajasevi.github.io/CSSnowflakes/ */
 .snowflake {
   color: #fff;
-  font-size: 1em;
+  font-size: 1.3em;
   font-family: Arial, sans-serif;
   text-shadow: 0 0 5px #000;
 }
