@@ -1,0 +1,46 @@
+[
+    {
+        "version": "1.0",
+        "down": "",
+        "category": "Featured Apps"
+    },
+    {
+        "version": "1.0",
+        "down": "",
+        "category": "Featured Apps"
+    },
+    {
+        "name": "My Example App",
+        "version": "1.1",
+        "down": "https://example.com/myapp_v1.1.ipa",
+        "category": "Apps",
+        "description": "This is an awesome app only available on AltStore.",
+        "bundleID": "com.example.myapp",
+        "appstore": "com.example.myapp"
+    },
+    {
+        "name": "Another Example App",
+        "version": "1.2",
+        "down": "https://example.com/anotherapp_v1.2.ipa",
+        "category": "Apps",
+        "description": "This is another awesome app only available on AltStore.",
+        "bundleID": "com.example.anotherapp",
+        "appstore": "com.example.anotherapp"
+    },
+    {
+        "name": "New Feature Announcement",
+        "version": "",
+        "down": "",
+        "description": "Introducing a new feature in AltStore!",
+        "bundleID": "",
+        "category": "News"
+    },
+    {
+        "name": "App Update Available",
+        "version": "",
+        "down": "",
+        "description": "An update is available for My Example App.",
+        "bundleID": "com.example.myapp",
+        "category": "News"
+    }
+]
