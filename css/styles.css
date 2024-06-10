@@ -160,24 +160,27 @@ p {
 }
 
 .down {
-  background-color: #7163FF;
-  border-radius: 44px;
-  border-width: 0;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  list-style: none;
-  margin: 0;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  margin-right: 10px;
-  margin-left: 10px;
-  height: 43px;
-  width: 145px;
+    background-color: #7163FF;
+    border-radius: 22px; /* Ajusté pour correspondre à l'image */
+    border: 2px solid #6D5FEE; /* Ajouté pour correspondre à l'image */
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    list-style: none;
+    margin: 0 10px; /* Combiné les marges gauche et droite */
+    padding: 10px 20px; /* Ajusté pour correspondre à l'image */
+    height: 43px;
+    width: 145px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre */
+}
+
+.down i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
 }
 /*faq*/
 .layout {
