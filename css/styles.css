@@ -280,3 +280,9 @@ nav {
     height: 184px;
     width: auto;
 } 
+.faq {
+    background-image: url("assets/faq.jpg");
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
