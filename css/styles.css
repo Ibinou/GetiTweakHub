@@ -187,12 +187,13 @@ p {
   margin: auto;
 }
 .accordion {
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: #e5e5e5;
-  border-radius: 10px;
-  width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ffffff75;
+    border-radius: 17px;
+    width: 300px;
+    border: solid 1px #ffffff94;
 }
 .accordion__question p {
   margin: 5px;
@@ -201,14 +202,15 @@ p {
   font-family: Helvetica;
   font-size: 19px;
 }
+
 .accordion__answer p {
-  margin: 5px;
-  padding: 10px;
-  font-size: 16px;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #393939;
-  background: #d8d8d8;
-  border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #393939;
+    background: #ffffff70;
+    border-radius: 12px;
 }
 .accordion:hover {
   cursor: pointer;
@@ -281,8 +283,11 @@ nav {
     width: auto;
 } 
 .faq {
-    background-image: url("assets/faq.jpg");
+    background-image: url("../assets/faq.jpg");
     left: 0;
     right: 0;
     padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
