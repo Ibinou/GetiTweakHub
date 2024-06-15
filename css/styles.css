@@ -5,7 +5,10 @@ body {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
-} 
+}
+a {
+  color: #7268f6;
+}
 .topiphone {
     display: flex;
     justify-content: center;
