@@ -291,13 +291,15 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
 }
-        .review {
-            width: 300px;
-            background: #f3f3f3;
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-        }
+.review {
+    width: auto;
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
         .review .user {
             display: flex;
             align-items: center;
