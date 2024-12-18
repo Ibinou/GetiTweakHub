@@ -5,7 +5,10 @@ body {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
-} 
+}
+a {
+  color: #7268f6;
+}
 .topiphone {
     display: flex;
     justify-content: center;
@@ -160,36 +163,40 @@ p {
 }
 
 .down {
-  background-color: #7163FF;
-  border-radius: 44px;
-  border-width: 0;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  list-style: none;
-  margin: 0;
-  padding: 10px 12px;
-  text-align: center;
-  text-decoration: none;
-  margin-right: 10px;
-  margin-left: 10px;
-  height: 43px;
-  width: 145px;
+    background-color: #7163FF;
+    border-radius: 15px; 
+    border: 2px solid #5948ff; 
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    list-style: none;
+    margin: 0 10px; 
+    padding: 10px 20px; 
+    height: 43px;
+    width: 145px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.down i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
 }
 /*faq*/
 .layout {
   margin: auto;
 }
 .accordion {
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: #e5e5e5;
-  border-radius: 10px;
-  width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ffffff75;
+    border-radius: 17px;
+    width: 300px;
+    border: solid 1px #ffffff94;
 }
 .accordion__question p {
   margin: 5px;
@@ -198,14 +205,15 @@ p {
   font-family: Helvetica;
   font-size: 19px;
 }
+
 .accordion__answer p {
-  margin: 5px;
-  padding: 10px;
-  font-size: 16px;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #393939;
-  background: #d8d8d8;
-  border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #393939;
+    background: #ffffff70;
+    border-radius: 12px;
 }
 .accordion:hover {
   cursor: pointer;
@@ -273,4 +281,47 @@ nav {
   font-family: Arial, sans-serif;
   text-shadow: 0 0 5px #000;
 }
- 
+.save_money {
+    height: 184px;
+    width: auto;
+} 
+.faq {
+    background-image: url("../assets/faq.jpg");
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.review {
+    width: auto;
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+        .review .user {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .review .user img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #ccc;
+            margin-right: 10px;
+        }
+        .review .user .username {
+            font-weight: bold;
+            color: #333;
+        }
+        .review .user .date {
+            color: #888;
+        }
+        .review .rating-content {
+            color: #333;
+        }
