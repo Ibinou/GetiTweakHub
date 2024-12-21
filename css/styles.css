@@ -180,6 +180,11 @@ p {
     height: 43px;
     width: 145px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); 
+    transition-duration: 0.4s;
+}
+
+.down:hover {
+    background-color: #5948ff; 
 }
 
 .down i {
