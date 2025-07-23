@@ -1,3 +1,3 @@
 ## Get iTweakHub 
-This is the iTweakHub installer. You can find infos and download iTweakHub here. 
+This is the iTweakHub website. You can find informations and install/download iTweakHub here. 
 
