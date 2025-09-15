@@ -16,14 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // Ajouter un curseur pointer sur les questions
         question.style.cursor = 'pointer';
         
-        // Ajouter un indicateur visuel (flèche)
-        const arrow = document.createElement('span');
-        arrow.style.float = 'right';
-        arrow.style.transition = 'transform 0.3s ease';
-        arrow.style.fontSize = '12px';
-        arrow.style.color = '#666';
-        question.appendChild(arrow);
-        
         // Ajouter l'événement click
         question.addEventListener('click', function() {
             const isOpen = answer.style.display === 'block';
@@ -34,13 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 setTimeout(() => {
                     answer.style.display = 'none';
                 }, 300);
-                arrow.style.transform = 'rotate(0deg)';
                 question.style.fontWeight = 'normal';
             } else {
                 // Ouvrir l'accordéon
+                answer.style.padding = '10px';
                 answer.style.display = 'block';
                 answer.style.maxHeight = answer.scrollHeight + 'px';
-                arrow.style.transform = 'rotate(180deg)';
                 question.style.fontWeight = 'bold';
             }
         });
@@ -74,14 +65,6 @@ function initAccordionExclusive() {
             answer.style.transition = 'max-height 0.3s ease-out';
             question.style.cursor = 'pointer';
             
-            // Ajouter flèche
-            const arrow = document.createElement('span');
-            arrow.style.float = 'right';
-            arrow.style.transition = 'transform 0.3s ease';
-            arrow.style.fontSize = '12px';
-            arrow.style.color = '#666';
-            question.appendChild(arrow);
-            
             question.addEventListener('click', function() {
                 const isCurrentlyOpen = answer.style.display === 'block';
                 
@@ -96,7 +79,6 @@ function initAccordionExclusive() {
                         setTimeout(() => {
                             otherAnswer.style.display = 'none';
                         }, 300);
-                        otherArrow.style.transform = 'rotate(0deg)';
                         otherQuestion.style.fontWeight = 'normal';
                     }
                 });
@@ -109,6 +91,7 @@ function initAccordionExclusive() {
                     }, 300);
                     question.style.fontWeight = 'normal';
                 } else {
+                    answer.style.padding = '10px';
                     answer.style.display = 'block';
                     answer.style.maxHeight = answer.scrollHeight + 'px';
                     question.style.fontWeight = 'bold';
