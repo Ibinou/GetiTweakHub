@@ -337,7 +337,7 @@
 
 .accordion {
     background: #ffffff87;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-bottom: 8px;
     border: 1px solid rgb(255 255 255);
     overflow: hidden;
@@ -515,7 +515,7 @@
 
         .carrousel {
             display: flex;
-            gap: 20px;
+            gap: 15px;
             overflow-x: auto;
             padding: 10px;
             scrollbar-width: none;
@@ -530,7 +530,7 @@
 
         .card {
             min-width: 220px;
-            height: 350px;
+            height: 373px;
             border-radius: 31px;
             padding: 25px;
             position: relative;
@@ -740,6 +740,6 @@
             
             .card {
                 min-width: 225px;
-                height: 374px;
+                height: 373px;
             }
         }
